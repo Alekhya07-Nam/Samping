@@ -1,0 +1,65 @@
+body{
+    width: 99%;
+    background-color: antiquewhite;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent5th{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    /* flex-wrap: wrap; */
+}
+.parent5thinnerdiv{
+    width: 80%;
+    height: 80%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: relative; */
+    flex-wrap: wrap;
+}
+.parent5thinnerdiv1{
+    width: 560px;
+    height: 100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* position: absolute; */
+    left: 0px;
+}
+.parent5thinnerdiv2{
+    width: 560px;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    right: 0px;
+}
+.parent5thContent1{
+    width: 520px;
+    height: 95%;
+    background-color: aliceblue;
+    display: flex;
+    /* position: relative; */
+}
+.imageParent5th{
+    width: 100%;
+    height: 100%;
+}
+.parent5thinnerdiv1{
+    width: 100%;
+    height: 8%;
+    background-color: beige;
+}
